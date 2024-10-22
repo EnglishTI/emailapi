@@ -1,0 +1,24 @@
+{
+  "name": "api-e-mail",
+  "version": "1.0.0",
+  "description": "Esta é uma api para o envio de emails",
+  "main": "servidor.js",
+  "engines": {
+    "node": "20.x "
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js"
+  },
+  "keywords": [
+    "Email",
+    "envio"
+  ],
+  "author": "Sabalo Zua",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  }
+}
